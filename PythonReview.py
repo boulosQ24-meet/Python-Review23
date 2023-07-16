@@ -25,11 +25,12 @@ new_video = create_youtube_video("Awesome Tutorial","test for code")
 
 print("Videos:", new_video)
 
-new_video = like(new_video)
-new_video = like(new_video)
-new_video = dislike(new_video)
 
 add_comment(new_video, "user1", "wooow")
 add_comment(new_video, "user2", "coool")
-print(new_video["comments"])
+dislike(new_video)
+like(new_video)
+
+print(new_video)
+
 
