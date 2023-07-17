@@ -37,5 +37,18 @@ for i in range(495):
     new_video = like(new_video)
 
 print("update:", new_video)
+# end of testing 
+
+# Controls
+
+user_text = input("What do you want to do: ")
 
 
+if user_text == "like":
+    like(new_video)
+    print("Update:", new_video)
+elif user_text == "dislike":
+    dislike(new_video)
+    print("Another update:", new_video)
+elif user_text != "like" or "dislike":
+    print("Sorry, we can't do that.")
