@@ -32,6 +32,9 @@ dislike(new_video)
 like(new_video)
 dislike(new_video)
 
+for i in range(495):
+    new_video = like(new_video)
+
 print("update:", new_video)
 
 
