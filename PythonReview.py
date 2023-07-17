@@ -30,7 +30,8 @@ add_comment(new_video, "user1", "wooow")
 add_comment(new_video, "user2", "coool")
 dislike(new_video)
 like(new_video)
+dislike(new_video)
 
-print(new_video)
+print("update:", new_video)
 
 
